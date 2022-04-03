@@ -1,4 +1,5 @@
 const Hyperbee = require('../../')
+const Data = require('data')
 
 module.exports = {
   toString,
@@ -68,6 +69,6 @@ async function toString (tree) {
 
 function create (opts) {
   opts = { keyEncoding: 'utf-8', valueEncoding: 'utf-8', ...opts }
-  const feed = require('hypercore')(require('random-access-memory'))
+  const feed = new Data(require('random-access-memory'))
   return new Hyperbee(feed, opts)
 }

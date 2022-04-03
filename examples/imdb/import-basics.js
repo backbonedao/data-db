@@ -1,5 +1,5 @@
 const Hyperb = require('../../')
-const hypercore = require('hypercore')
+const hypercore = require('data')
 const split2 = require('split2')
 const fs = require('fs')
 
