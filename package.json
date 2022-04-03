@@ -1,7 +1,7 @@
 {
-  "name": "kv",
+  "name": "data-db",
   "version": "1.7.0",
-  "description": "core/kv",
+  "description": "core/data-db",
   "main": "index.js",
   "dependencies": {
     "codecs": "^2.1.0",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/backbonedao/kv.git"
+    "url": "https://github.com/backbonedao/data-db.git"
   },
   "contributors": [
     {
@@ -40,7 +40,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/backbonedao/kv/issues"
+    "url": "https://github.com/backbonedao/data-db/issues"
   },
-  "homepage": "https://github.com/backbonedao/kv"
+  "homepage": "https://github.com/backbonedao/data-db"
 }
