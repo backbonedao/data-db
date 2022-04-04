@@ -1,5 +1,5 @@
 const Hyperb = require('../../')
-const hypercore = require('data')
+const hypercore = require('hypercore')
 
 const db = new Hyperb(hypercore('./db', { sparse: true }))
 

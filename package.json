@@ -4,18 +4,18 @@
   "description": "core/data-db",
   "main": "index.js",
   "dependencies": {
-    "codecs": "^2.1.0",
-    "hypercore-promisifier": "^1.0.1",
-    "mutexify": "^1.3.1",
-    "protocol-buffers-encodings": "^1.1.0",
-    "streamx": "^2.6.6"
+    "codecs": "^3.0.0",
+    "hypercore-promisifier": "^1.1.0",
+    "mutexify": "^1.4.0",
+    "protocol-buffers-encodings": "^1.1.1",
+    "streamx": "^2.12.4"
   },
   "devDependencies": {
-    "data": "git+https://github.com/backbonedao/data.git",
-    "protocol-buffers": "^4.2.0",
-    "random-access-memory": "^3.1.1",
-    "standard": "^14.3.4",
-    "tape": "^5.0.1",
+    "hypercore": "git+https://github.com/backbonedao/data.git",
+    "protocol-buffers": "^5.0.0",
+    "random-access-memory": "^4.0.0",
+    "standard": "^16.0.4",
+    "tape": "^5.5.2",
     "tree-to-string": "^1.1.1"
   },
   "scripts": {

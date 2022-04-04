@@ -1,5 +1,5 @@
 const Hyperbee = require('../../')
-const Data = require('data')
+const Data = require('hypercore')
 
 module.exports = {
   toString,
