@@ -1,5 +1,5 @@
 {
-  "name": "data-db",
+  "name": "@backbonedao/data-db",
   "version": "1.7.0",
   "description": "core/data-db",
   "main": "index.js",
