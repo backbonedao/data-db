@@ -11,7 +11,7 @@
     "streamx": "^2.12.4"
   },
   "devDependencies": {
-    "hypercore": "git+https://github.com/backbonedao/data.git",
+    "hypercore": "github:backbonedao/data",
     "protocol-buffers": "^5.0.0",
     "random-access-memory": "^4.0.0",
     "standard": "^16.0.4",
@@ -38,7 +38,7 @@
       "url": "https://mafinto.sh"
     }
   ],
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/backbonedao/data-db/issues"
   },
