@@ -9,6 +9,8 @@ const DiffIterator = require('./iterators/diff')
 const Extension = require('./lib/extension')
 const { YoloIndex, Node, Header } = require('./lib/messages')
 
+const Buffer = require('b4a')
+
 const T = 5
 const MIN_KEYS = T - 1
 const MAX_CHILDREN = MIN_KEYS * 2 + 1
