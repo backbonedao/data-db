@@ -10,7 +10,7 @@
     "hypercore-promisifier": "^1.1.0",
     "mutexify": "^1.4.0",
     "patch-package": "^6.4.7",
-    "protocol-buffers-encodings": "^1.1.1",
+    "protocol-buffers-encodings": "github:backbonedao/protocol-buffers-encodings",
     "streamx": "^2.12.4"
   },
   "devDependencies": {
@@ -22,7 +22,7 @@
     "tree-to-string": "^1.1.1"
   },
   "scripts": {
-    "test": "standard && tape test/*.js",
+    "test": "tape test/*.js",
     "protobuf": "protocol-buffers schema.proto -o ./lib/messages.js",
     "postinstall": "patch-package"
   },
