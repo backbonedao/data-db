@@ -1,6 +1,6 @@
 {
   "name": "@backbonedao/data-db",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "core/data-db",
   "main": "index.js",
   "dependencies": {

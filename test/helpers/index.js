@@ -1,3 +1,6 @@
+const ram = require('random-access-memory')
+const Hypercore = require('hypercore')
+
 const Hyperbee = require('../../')
 const Data = require('hypercore')
 

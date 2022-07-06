@@ -1,3 +1,4 @@
+const ram = require('random-access-memory')
 const tape = require('tape')
 const { create, collect } = require('./helpers')
 const Data = require('hypercore')
